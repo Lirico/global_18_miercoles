@@ -17,3 +17,6 @@
 ## Para revisar informacion
 - git status: Revisamos que esta registrado y que no. (rojo: no registrado. Verde: Registrado)
 - git log: revisamos la lista de commits realizados. (El que tiene el HEAD es el ultimo y apunta a la rama en la cual se realizó.)
+
+## Descargar de repo a PC
+- git clone [enlace repo]: Clona el proyecto del repo a la PC
