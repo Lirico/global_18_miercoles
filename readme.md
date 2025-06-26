@@ -2,6 +2,7 @@
 
 - git init: inicializa git en un proyecto.
 - git remote add origin [enlace repo]: Conecta un proyecto con un repositorio.
+- git remote set-url origin [enlace nuevo repo]: Resvincula el proyecto de un repo, y lo vinculo al nuevo.
 
 ## Preparamos nuestros cambios para ser enviados al repositrio.
 - git add [nombre achivo]: Registra un archivo para ser enviado al repo.
@@ -23,3 +24,6 @@
 
 ## Actualizar el proyecto de repo a PC
 - git pull: Arrastra cambios que existen en el repo pero no en la PC, del repo a la PC.
+
+# Dar colaborador
+Entran al repo -> Settings -> Collaborators -> Add people -> Buscan a "lirico" (Matias Dominguez) avatar de atomo.
