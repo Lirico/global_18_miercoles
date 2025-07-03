@@ -22,6 +22,9 @@
 ## Descargar de repo a PC
 - git clone [enlace repo]: Clona el proyecto del repo a la PC
 
+## Cambiar de rama
+- git checkout [nombre rama]
+
 ## Actualizar el proyecto de repo a PC
 - git pull: Arrastra cambios que existen en el repo pero no en la PC, del repo a la PC.
 
