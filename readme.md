@@ -25,5 +25,9 @@
 ## Actualizar el proyecto de repo a PC
 - git pull: Arrastra cambios que existen en el repo pero no en la PC, del repo a la PC.
 
+## Establecer tus datos de username e email
+- git config --global user.email "aldanacapoble@gmail.com"
+- git config --global user.name "Aldana Capoble"
+
 # Dar colaborador
 Entran al repo -> Settings -> Collaborators -> Add people -> Buscan a "lirico" (Matias Dominguez) avatar de atomo.
