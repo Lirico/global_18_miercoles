@@ -34,3 +34,5 @@
 
 # Dar colaborador
 Entran al repo -> Settings -> Collaborators -> Add people -> Buscan a "lirico" (Matias Dominguez) avatar de atomo.
+
+.
