@@ -1,0 +1,73 @@
+
+
+/* 
+    ESTILOS GLOBALES 
+    -> Los estilos comunes a todas las paginas
+
+    Ej: 
+        -> Estilos de la nav
+        -> Estilos del footer
+*/
+
+/* Selector de Universal */
+/* * {
+    color: pink;
+    background-color: brown;
+} */
+
+/* Selector de Etiqueta */
+/* p {
+    color: red;
+    background-color: green;
+} */
+
+/* Selector de Clase */
+/* .parrafo {
+    color: yellow;
+    background-color: blue;
+} */
+
+/* Selector de ID */
+/* #especial {
+    color: orange;
+    background-color: aqua;
+} */
+
+/********* Selectores combinados **********/
+/* Selector de hijos (>) */
+/* section > h2 {
+    color: red;
+} */
+
+/* Selector de descendientes */
+/* section h2 {
+    color: red;
+} */
+
+/* Selector de hermanos (~) -> virgulilla */ 
+/* h2 ~ p {
+    color: red;
+} */
+
+/* Selector de hermanos (+) */ 
+/* h2 + p {
+    color: red;
+} */
+
+/* Selector de atributo */ 
+/* input[class="pepe"] {
+    color: red;
+}  */
+
+/* 
+    Investigar:
+    Selector de columnas a || b
+    -> Tablas
+*/
+
+
+/* Pseudoclase (funcion) */ 
+/* nth-child(valor) */
+/* p:nth-child(3){
+    color: red;
+} */
