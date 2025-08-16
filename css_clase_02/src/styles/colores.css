@@ -1,0 +1,46 @@
+/* 
+    COLORES
+
+    Usualmente podemos colocar colores por nombre de color
+    pero esto limita la gama a la podemos acceder.
+
+    Hay varios formatos con los que podemos colocar colores:
+    -> RGB -> rgb(red, green, blue) -> 0 - 255
+        -> red, green, blue
+
+    -> hexadecimal -> 0 1 2 3 4 5 6 7 8 9 A B C D E F
+        -> #2E4FBC
+        ->  r g b
+
+    -> HSL (matiz(hue), Saturation, Lightness(brillo))
+            0 - 360      0 - 100%        0 - 100%
+*/
+
+/* div {
+    background-color: hsl(270, 50%, 39%);
+    width: 200px;
+    height: 200px;
+} */
+
+/* Quiero crear un filtro transparentado. */
+
+/* .container {
+  background-image: url("https://imag.bonviveur.com/hamburguesa-clasica.jpg");
+  width: 1200px;
+  height: 800px;
+}
+
+.filter {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: inherit;
+  height: inherit;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-size: 5rem;
+  color: white;
+} */

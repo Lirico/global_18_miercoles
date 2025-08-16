@@ -1,0 +1,78 @@
+/* 
+    DIMENSIONES
+
+    Estas son las medidas que podemos colocar a nuestros
+    elementos HTML.
+    Estas medidas pueden ser de dos clases:
+    -> Absolutas
+        -> Su valor no depende de otra medida.
+            -> centimetros (cm)
+            -> pulgadas (inch)
+            -> pixeles (px)
+    -> Relativas
+        -> Su valor depende de otra medida.
+            -> porcentuales (%)
+            -> viewport (medida relativa al ancho (vw) o alto (vh) del navegador)
+            -> rem
+            -> em
+*/ 
+
+/* .padre {
+    background-color: orange;
+    height: 400px;
+    width: 400px;
+}
+.hijo {
+    background-color: aqua;
+    height: 25%;
+    width: 25%;
+} */
+
+* {
+    margin: 0;
+}
+
+/* .fondo1 {
+    background-color: brown;
+    width: 100%; 
+    height: 100vh; 
+}
+.fondo2 {
+    background-color: white;
+    width: 100%;
+    height: 100vh; 
+} */
+
+html {
+    font-size: 12px; /* 1 rem -> 12px */
+}
+
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.75rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+h4 {
+    font-size: 1.25rem;
+}
+
+.rebelde {
+    font-size: 20px; /* 1em -> 20px */
+}
+
+.rebelde h1 {
+    font-size: 2em;
+}
+.rebelde h2 {
+    font-size: 1.75em;
+}
+.rebelde h3 {
+    font-size: 1.5em;
+}
+.rebelde h4 {
+    font-size: 1.25em;
+}

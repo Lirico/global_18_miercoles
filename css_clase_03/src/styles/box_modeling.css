@@ -1,0 +1,33 @@
+/* 
+    BOX MODELING
+
+    Nosotros vamos a comenzar a pensar los elementos html como container -> cajas.
+
+    Las cajas poseen 4 caracteristicas:
+        -> Contenido (content)
+        -> Relleno (padding)
+        -> Borde (border)
+        -> Margen (margin)
+*/
+
+.box {
+    background-color: orange;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+}
+.box2 {
+    background-color: purple;
+    width: 300px;
+    height: 300px;
+}
+
+/* 
+    Si colocamos un unico valor de padding este aplica
+    para los 4 puntos cardinales.
+
+    Si colocamos 2 valores, el primero es el eje Y y el segundo
+    es el eje X.
+
+    Si queremos dar un valor a cada lado, colocamos 4 valores.
+*/
