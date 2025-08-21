@@ -1,0 +1,47 @@
+/* 
+    FLEX BOX
+
+    Un sistema distribucion de elemento dentro de un container.
+
+    Este sistema nos permite elegir la direccion de los elementos, como filas o columnas.
+    Nos permite tambien elegir como agruparlos.
+    Tambien nos permite que cada elemento pueda diferenciarse de los demas en su posicion.
+
+    Flexbox es uno de los tantos valores de la propiedad display (despliegue)
+
+    ¿Que existia antes de flexbox?¿Que puede recibir la propiedad display?
+*/
+
+.container {
+    background-color: aqua;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.dos {
+    align-self: start;
+}
+
+.tres {
+    align-self: end;
+}
+
+/* 
+    Investigar:
+    1. flex-grow
+    2. flex-basis
+    3. flex-shrink
+*/
